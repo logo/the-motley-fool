@@ -1,0 +1,21 @@
+
+/**
+ * The Motley Fool logo.
+ */
+
+.logo[data-logo="The Motley Fool"] {
+  width: 0;
+}
+
+.logo[data-logo="The Motley Fool"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0 0 0 0;
+}
+
+.logo[data-logo="The Motley Fool"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="The Motley Fool"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
